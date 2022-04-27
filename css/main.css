@@ -1,0 +1,116 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 800px;
+    /* width: 65vw; */
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+h1>a
+{
+	color:gainsboro;
+    font-weight: bold;
+	text-decoration: none;
+}
+
+#add{
+	float: right;
+}
+
+h1{
+	display: inline;
+}
+
+nav{
+    background-color: rgba(19, 19, 20, 0.808);
+    height:30px;
+    min-height: 2em;
+	line-height: 30px;
+    margin-right: 0;
+    text-align: center;
+}
+
+nav >a{
+	color:gainsboro;
+	padding: 0 0.5em 0 2em;
+    font-weight: bold;
+	text-decoration: none;
+}
+
+
+#create_main,
+#contacts_main{
+	min-height: 500px;
+	max-width: 90%;
+	margin: auto;
+}
+
+#contact_form>#title{
+	text-align: center;
+}
+
+#title>#cancel{
+	color: #0984e3;
+	text-decoration: none;
+	float: left;
+}
+
+h4{
+	display: inline;
+	vertical-align: middle;
+}
+
+#title>h4{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+#title>#done{
+	color: #0984e3;
+	text-decoration: none;
+	float: right;
+	border: 0ch;
+	background-color:white;
+}
+
+#contact_form>#firstname,
+#contact_form>#lastname,
+#contact_form>#email,
+#contact_form>#phone{
+	margin: 2em auto;
+
+}
+
+#first-name,
+#last-name,
+#email-address,
+#phone-number{
+	width:100%;
+	border: 0ch;
+	height: 3em;
+}
+#search-bar{
+	border: 0;
+	margin: 0;
+}
+#search-bar>#key-contact{
+	margin: 2em 0 auto;
+	width: 80%;
+	border-radius: 3%;
+	height: 3em;
+}
+#search-bar>#search-submit{
+	float: right;
+	margin: 2em 0 auto;
+	border: 0ch;
+	width: 20%;
+	height: 3em;
+}
+#data{
+	margin: 2em auto;
+}
+
+
+
